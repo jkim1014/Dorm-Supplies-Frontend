@@ -1,0 +1,18 @@
+extends template
+
+block cssSheets
+  link(rel='stylesheet', href='/stylesheets/index.css')
+
+block content
+  h1 
+  .welcome
+    p.head Order<br> 
+    p.sub <i>Put your life in order</i>
+
+  br
+  br
+  div(class="buttons-wrap")
+    div(class="buttons")
+      a(class="btn" href="/login") Login
+      span    
+      a(class="btn" href="/register") Register

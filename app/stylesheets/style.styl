@@ -1,0 +1,66 @@
+@require "helpers"
+
+text-color = #000
+mobile-width = 600px
+
+body
+	margin 0
+	padding 0
+	font-family sans-serif
+#navbar
+	position relative
+	top 0
+	left 0
+	margin-bottom 50px
+	width calc(100% - 40px)
+	padding 20px
+	background palevioletred
+
+a
+	text-decoration none
+
+#navbar span
+	color white
+	font-size 2em
+	text-transform uppercase
+	font-family 'Futura', sans-serif
+
+#nb-items
+	float right
+#nb-items *
+	padding-left 20px
+
+
+// Form
+
+.form-box
+	width 50%
+	margin 0px 25%
+	box-shadow 0px 0px 20px #CCC
+	padding 30px
+	font-family 'Futura', sans-serif
+.fb-item:last-child
+	margin-bottom 100px
+.fb-item
+	margin-bottom 20px
+.fb-item input
+	width 100%
+	font-size 1.2em
+.fb-item:focus
+	border-color palevioletred
+#submit
+	position relative
+	bottom 0
+	left 0
+	width 100%
+	background palevioletred
+	padding 20px
+	text-align center
+	color white
+	font-size 1.4em
+	text-transform uppercase
+	border none
+#submit:hover 
+	opacity 0.8
+	cursor pointer
+
